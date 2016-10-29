@@ -1,0 +1,7 @@
+public class TestSpec {
+
+  /*@ ensures  \result > 0;
+    @*/
+  int possiblyAdd(int a, int b);
+
+}
