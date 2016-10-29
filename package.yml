@@ -5,18 +5,18 @@ description : Test for publish command.
 
 author:
   - name: lukemmyers
-    email: lukemmyers@gmail.com
+    email: lukemmyers@bobmail.com
 
 
 # a list of the named and versioned packages that must be installed before
-# installing 
-# depends:                               
+# installing
+# depends:
 #   - package   : other-package   # represents a package that MUST be installed
 #     version   : 1.1.1
-#     platform  : all 
+#     platform  : all
 #   - package   : other-package
 #     version   : 1.1.1
-#   - one-of:                     # at least one of these must be installed  
+#   - one-of:                     # at least one of these must be installed
 #       - package: z3
 #         version: 1.1.2
 #         platform: all
@@ -30,9 +30,9 @@ author:
 
 # assets:
 #     - asset   : MAIN
-#       url     : http://www.openjml.org/downloads/1.1.2.tar.gz  
+#       url     : http://www.openjml.org/downloads/1.1.2.tar.gz
 #       platform: all
-        
+
 # assumes:
 #   - cmd: java --version # right now just support cmd -- maybe file exists?
 #     contains: 1.7
